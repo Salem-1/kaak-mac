@@ -10,7 +10,7 @@ git clone https://github.com/Salem-1/kaak-troll-for-mac.git
 ```
 or
 ```
-  ./student_kaak
+  ./student_kaak &
 ```
 to stop the troll go to the same directory as before
   ```
