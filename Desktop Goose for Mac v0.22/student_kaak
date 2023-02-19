@@ -1,0 +1,32 @@
+#!/bin/bash 
+
+
+sleep 300 
+
+for i in {0..4}
+do
+    cp -r Desktop\ Goose.app $i.app
+    open $i.app
+    sleep 1
+done
+
+ for i in {6..8}
+ do
+     
+     cp -r Desktop\ Goose.app $i.app
+     sleep 300
+     open $i.app
+     sleep 1
+ done
+
+
+
+sleep 10800
+
+for i in {0..30}
+do
+    rm -rf $i.app 2> /dev/null
+    kill "$(pgrep Goos | tail -1)" > /dev/null 2> /dev/null
+done 
+
+

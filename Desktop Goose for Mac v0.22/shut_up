@@ -1,0 +1,8 @@
+#!/bin/bash
+
+for i in {0..30}
+ do
+     rm -rf $i.app 2> /dev/null
+     kill "$(pgrep Goos | tail -1)" > /dev/null 2> /dev/null
+ done
+
