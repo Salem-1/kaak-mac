@@ -6,7 +6,7 @@ To run the troll:
 git clone https://github.com/Salem-1/kaak-troll-for-mac.git
 ```
   cd kaak-troll-for-mac/Desktop\ Goose\ for\ Mac\ v0.22
-  ./kaak
+  ./kaak &
 ```
 or
 ```
@@ -15,5 +15,5 @@ or
 to stop the troll go to the same directory as before
   ```
   cd kaak-troll-for-mac/Desktop\ Goose\ for\ Mac\ v0.22
-  ./shut_up
+  ./shut_up &
 ```
