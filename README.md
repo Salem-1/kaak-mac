@@ -10,6 +10,7 @@ git clone https://github.com/Salem-1/kaak-troll-for-mac.git
 ```
 or
 ```
+  cd kaak-troll-for-mac/Desktop\ Goose\ for\ Mac\ v0.22
   ./student_kaak &
 ```
 to stop the troll go to the same directory as before
