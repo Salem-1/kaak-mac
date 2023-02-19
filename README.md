@@ -18,3 +18,5 @@ to stop the troll go to the same directory as before
   cd kaak-troll-for-mac/Desktop\ Goose\ for\ Mac\ v0.22
   ./shut_up &
 ```
+
+Don't forget to Increase the volume to the Max :)
