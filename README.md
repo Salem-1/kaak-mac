@@ -4,13 +4,16 @@ I added the kaak and student kaak to this work, however the original program bel
 To run the troll:
 
 git clone https://github.com/Salem-1/kaak-troll-for-mac.git
+```
   cd kaak-troll-for-mac/Desktop\ Goose\ for\ Mac\ v0.22
   ./kaak
-
+```
 or
-
+```
   ./student_kaak
-
+```
 to stop the troll go to the same directory as before
+  ```
   cd kaak-troll-for-mac/Desktop\ Goose\ for\ Mac\ v0.22
   ./shut_up
+```
