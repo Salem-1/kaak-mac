@@ -6,12 +6,12 @@ To run the troll:
 git clone https://github.com/Salem-1/kaak-troll-for-mac.git
 ```
   cd kaak-mac/Desktop\ Goose\ for\ Mac\ v0.22
-  ./kaak &
+  screen -d -m "./kaak &"
 ```
 or
 ```
   cd kaak-mac/Desktop\ Goose\ for\ Mac\ v0.22
-  ./student_kaak &
+  screen -d -m ./student_kaak &
 ```
 to stop the troll go to the same directory as before
   ```
