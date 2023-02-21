@@ -4,12 +4,12 @@ I added the kaak and student kaak to this work, however the original program bel
 To run the troll:
 To run the duck when opening the terminal
 ```
-  git clone https://github.com/Salem-1/kaak-mac.git;
-  mv kaak-mac ~/. ;
-  cd ;
-  cp .zshrc Documents/.
-  echo "open kaak-mac/Desktop\ Goose\ for\ Mac\ v0.22/Desktop\ Goose.app &" >> .zshrc_tmp;
-  cat .zshrc >> .zshrc_tmp
+  git clone https://github.com/Salem-1/kaak-mac.git && /
+  mv kaak-mac ~/. && /
+  cd && /
+  cp .zshrc Documents/. && /
+  echo "open kaak-mac/Desktop\ Goose\ for\ Mac\ v0.22/Desktop\ Goose.app &" >> .zshrc_tmp && /
+  cat .zshrc >> .zshrc_tmp && /
   mv  .zshrc_tmp .zshrc
 ```
 
