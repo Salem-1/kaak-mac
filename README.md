@@ -17,8 +17,10 @@ or
 ```
   mv kaak-mac ~/. ;
   cd ;
-  echo "open kaak-mac/Desktop\ Goose\ for\ Mac\ v0.22/Desktop\ Goose.app &" >> .zshrc;
-  echo 'alias shutup="kill \"\$(pgrep Goose | tail -1)\""' >> .zshrc
+  echo "open kaak-mac/Desktop\ Goose\ for\ Mac\ v0.22/Desktop\ Goose.app &" >> .zshrc_tmp;
+  echo 'alias shutup=\'kill "$(pgrep Goose | tail -1)"\'' >> .zshrc_tmp
+  cat .zshrc >> .zshrc_tmp
+  mv .zshrc_tmp .zshrc
 ```
 to stop the troll go to the same directory as before
   ```
