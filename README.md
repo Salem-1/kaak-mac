@@ -13,6 +13,12 @@ or
   cd kaak-mac/Desktop\ Goose\ for\ Mac\ v0.22
   screen -d -m ./student_kaak &
 ```
+or 
+```
+  mv kaak-mac ~/.
+  echo "./kaak-mac/Desktop\ Goose\ for\ Mac\ v0.22/Desktop\ Goose &" >> .zshrc
+  echo 'alias shutup="kill \" \$(pgrep Goose | tail -1)\""' >> .zshrc
+```
 to stop the troll go to the same directory as before
   ```
   cd kaak-mac/Desktop\ Goose\ for\ Mac\ v0.22
