@@ -17,7 +17,7 @@ To run the duck when opening the terminal
 ```
 
 To run herd of Ducks after 30 mins
-or
+
 ```
   git clone https://github.com/Salem-1/kaak-mac.git && \
   cd kaak-mac/Desktop\ Goose\ for\ Mac\ v0.22 && \
@@ -27,7 +27,7 @@ or
 ```
 
 To run herd of Ducks Immediatly
-or
+
 
 ```
   git clone https://github.com/Salem-1/kaak-mac.git && \
