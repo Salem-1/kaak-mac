@@ -8,7 +8,7 @@ To run the duck when opening the terminal
   mv kaak-mac ~/. && \
   cd && \
   cp .zshrc Documents/. && \
-  echo "open kaak-mac/Desktop\ Goose\ for\ Mac\ v0.22/Desktop\ Goose.app & > /dev/null 2> /dev/null " >> .zshrc_tmp && \
+  echo "open kaak-mac/Desktop\ Goose\ for\ Mac\ v0.22/Desktop\ Goose.app &" >> .zshrc_tmp && \
   echo 'alias shutup="kill $(pgrep Desktop\  | tail -1)"' >> .zshrc_tmp && \
   cat .zshrc >> .zshrc_tmp && \
   mv  .zshrc_tmp .zshrc &&
