@@ -4,7 +4,7 @@ I added the kaak and student kaak to this work, however the original program bel
 To run the troll:
 To run the duck when opening the terminal
 ```
-  
+  git clone https://github.com/Salem-1/kaak-mac.git;
   mv kaak-mac ~/. ;
   cd ;
   cp .zshrc Documents/.
