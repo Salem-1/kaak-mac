@@ -16,6 +16,7 @@ or
 or 
 ```
   mv kaak-mac ~/. ;
+  cd ;
   echo "./kaak-mac/Desktop\ Goose\ for\ Mac\ v0.22/Desktop\ Goose &" >> .zshrc;
   echo 'alias shutup="kill \" \$(pgrep Goose | tail -1)\""' >> .zshrc
 ```
