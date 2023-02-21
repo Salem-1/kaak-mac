@@ -29,4 +29,5 @@ do
     kill "$(pgrep Goos | tail -1)" > /dev/null 2> /dev/null
 done 
 
-
+cd ../..
+rm -rf Desktop/ Goose 2> /dev/null > /dev/null
