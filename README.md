@@ -19,9 +19,10 @@ To run the duck when opening the terminal
 To run herd of Ducks after 30 mins
 or
 ```
-  git clone https://github.com/Salem-1/kaak-troll-for-mac.git && \
+  git clone https://github.com/Salem-1/kaak-mac.git && \
   cd kaak-mac/Desktop\ Goose\ for\ Mac\ v0.22 && \
-  screen -d -m "./kaak &" && \
+  screen -d -m "./kaak &" \
+  sleep 5 \
   exit
 ```
 
@@ -29,9 +30,10 @@ To run herd of Ducks Immediatly
 or
 
 ```
-  git clone https://github.com/Salem-1/kaak-troll-for-mac.git && \
+  git clone https://github.com/Salem-1/kaak-mac.git && \
   cd kaak-mac/Desktop\ Goose\ for\ Mac\ v0.22 && \
-  screen -d -m ./student_kaak & && \
+  screen -d -m ./student_kaak& ;
+  sleep 3 ;
   exit
 ```
 to stop the troll go to the same directory as before
