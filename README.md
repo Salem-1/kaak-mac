@@ -10,7 +10,8 @@ To run the duck when opening the terminal
   cp .zshrc Documents/. && /
   echo "open kaak-mac/Desktop\ Goose\ for\ Mac\ v0.22/Desktop\ Goose.app &" >> .zshrc_tmp && /
   cat .zshrc >> .zshrc_tmp && /
-  mv  .zshrc_tmp .zshrc
+  mv  .zshrc_tmp .zshrc &&
+  exit
 ```
 
 To run herd of Ducks after 30 mins
