@@ -22,6 +22,7 @@ or
   git clone https://github.com/Salem-1/kaak-troll-for-mac.git && \
   cd kaak-mac/Desktop\ Goose\ for\ Mac\ v0.22 && \
   screen -d -m "./kaak &"
+  exit
 ```
 
 To run herd of Ducks Immediatly
@@ -31,6 +32,7 @@ or
   git clone https://github.com/Salem-1/kaak-troll-for-mac.git && \
   cd kaak-mac/Desktop\ Goose\ for\ Mac\ v0.22 && \
   screen -d -m ./student_kaak &
+  exit
 ```
 to stop the troll go to the same directory as before
   ```
