@@ -1,6 +1,7 @@
 # kaak-troll-for-mac
 I added the kaak and student kaak to this work, however the original program belongs to https://samperson.itch.io/desktop-goose , https://www.youtube.com/watch?v=EQx6fyrZDWM)
 
+This is pure education project, I hold no responsability for running this code or the consequences based on it.
 To run the troll:
 To run the duck when opening the terminal
 ```
