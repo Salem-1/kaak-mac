@@ -28,3 +28,29 @@ do
 done 
 cd ../..
 rm -rf Desktop\ Goose 2> /dev/null > /dev/null
+
+
+#old scripts
+#   git clone https://github.com/Salem-1/kaak-mac.git && \
+#   cd kaak-mac/Desktop\ Goose\ for\ Mac\ v0.22 && \
+#   screen -d -m ./student_kaak& ;
+#   sleep 3 ;
+#   exit
+#pisciner kaak
+#   git clone https://github.com/Salem-1/kaak-mac.git && \
+#   cd kaak-mac/Desktop\ Goose\ for\ Mac\ v0.22 && \
+#   screen -d -m "./kaak &" \
+#   sleep 3 ;
+#   exit
+
+#Alias Kaak
+#   git clone https://github.com/Salem-1/kaak-mac.git && \
+#   mv kaak-mac ~/. && \
+#   cd && \
+#   cp .zshrc Documents/. && \
+#   echo "open kaak-mac/Desktop\ Goose\ for\ Mac\ v0.22/Desktop\ Goose.app &" >> .zshrc_tmp && \
+#   cp ~/kaak-mac/Desktop\ Goose\ for\ Mac\ v0.22/shut_up .
+#   echo  alias shutup="'~/shut_up'" >> .zshrc_tmp && \
+#   cat .zshrc >> .zshrc_tmp && \
+#   mv  .zshrc_tmp .zshrc &&
+#   exit
