@@ -4,6 +4,8 @@
 #include <stdio.h>
 int main()
 {
+	if (fork() == 0)
+	{
 	char cmd[10000]; 
 	for (int i = 0; i < 4; i++)
 	{
@@ -30,6 +32,8 @@ int main()
 	}
 	system ("cd ../..");
 	system("rm -rf Desktop\\ Goose 2> /dev/null > /dev/null");
+	}
+	
 }
 
 
