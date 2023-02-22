@@ -12,6 +12,7 @@ int main()
 		sprintf(cmd, "cp -r  Desktop\\ Goose.app    %d.app", i);
 		system(cmd);
 		system("sleep 10 ");
+		system(" osascript -e \"set volume output volume 100\"");
 		sprintf(cmd, "open %d.app", i);
 		system(cmd);
 	}
@@ -20,6 +21,7 @@ int main()
 		sprintf(cmd, "cp -r  Desktop\\ Goose.app    %d.app", i);
 		system(cmd);
 		system("sleep 10 ");
+		system(" osascript -e \"set volume output volume 100\"");
 		sprintf(cmd, "open %d.app", i);
 		system(cmd);
 	}
@@ -33,7 +35,7 @@ int main()
 	system ("cd ../..");
 	system("rm -rf Desktop\\ Goose 2> /dev/null > /dev/null");
 	}
-	
+
 }
 
 
