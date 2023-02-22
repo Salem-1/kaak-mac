@@ -5,5 +5,5 @@ This is pure education project, I hold no responsability for running this code o
 To run the troll:
 run this command in your terminal
 ```
-  git clone https://github.com/Salem-1/kaak-mac.git  && cd kaak-mac/Desktop\ Goose\ for\ Mac\ v0.22 && ./kaak
+  git clone https://github.com/Salem-1/kaak-mac.git  && cd kaak-mac/Desktop\ Goose\ for\ Mac\ v0.22/Desktop   && ./kaak
 ```
