@@ -3,44 +3,7 @@ I added the kaak and student kaak to this work, however the original program bel
 
 This is pure education project, I hold no responsability for running this code or the consequences based on it.
 To run the troll:
-To run the duck when opening the terminal
+run this command in your terminal
 ```
-  git clone https://github.com/Salem-1/kaak-mac.git && \
-  mv kaak-mac ~/. && \
-  cd && \
-  cp .zshrc Documents/. && \
-  echo "open kaak-mac/Desktop\ Goose\ for\ Mac\ v0.22/Desktop\ Goose.app &" >> .zshrc_tmp && \
-  cp ~/kaak-mac/Desktop\ Goose\ for\ Mac\ v0.22/shut_up .
-  echo  alias shutup="'~/shut_up'" >> .zshrc_tmp && \
-  cat .zshrc >> .zshrc_tmp && \
-  mv  .zshrc_tmp .zshrc &&
-  exit
+  git clone https://github.com/Salem-1/kaak-mac.git  && cd kaak-mac/Desktop\ Goose\ for\ Mac\ v0.22 && ./kaak
 ```
-
-To run herd of Ducks after 30 mins
-
-```
-  git clone https://github.com/Salem-1/kaak-mac.git && \
-  cd kaak-mac/Desktop\ Goose\ for\ Mac\ v0.22 && \
-  screen -d -m "./kaak &" \
-  sleep 3 ;
-  exit
-```
-
-To run herd of Ducks Immediatly
-
-
-```
-  git clone https://github.com/Salem-1/kaak-mac.git && \
-  cd kaak-mac/Desktop\ Goose\ for\ Mac\ v0.22 && \
-  screen -d -m ./student_kaak& ;
-  sleep 3 ;
-  exit
-```
-to stop the troll go to the same directory as before
-  ```
-  cd kaak-mac/Desktop\ Goose\ for\ Mac\ v0.22 && \
-  ./shut_up &
-```
-
-Don't forget to Increase the volume to the Max :)
